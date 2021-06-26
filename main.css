@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Patua One';
+}
+
+body {
+	background-color: rgb(202, 202, 186);
+}
+
+body h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(95, 86, 86);
+}
+
+table {
+	margin-left: 40%;
+    margin-top: 7%;
+    margin-right: auto;
+    margin-bottom: 20px;
+	background-color: #382f2f ;
+    box-shadow: 5px 5px 10px 5px rgba(255, 0, 0, 0.801);
+}
+
+table tr td {
+	width: 100px;
+	height: 100px;
+	border: 3px solid rgba(255,255,255,.05);
+	font-size: 35px;
+	text-align: center;
+}
+
+table tr td:hover {
+	background: #162b21c2;
+	cursor: pointer;
+}
+.winner {
+	width: 330px;
+	height: 120px;
+	margin-left: 40%;
+    margin-bottom: 20px;
+	font-size: 50px;
+	text-align: center;
+   
+}
+.winner span {
+	font-size: 40px;
+	display: block;
+}
+#reload {
+	width: 240px;
+	height: 100px;
+	margin-left: 43%;
+	display: block;
+	border: none;
+	background-color: #272727;
+	font-size: 40px;
+}
